@@ -1,18 +1,17 @@
 /* ==UserStyle==
-@name           Dark Twitter
+@name           Dark Republic for Twitter
 @namespace      github.com/officialcreyo/dark-twitter
-@version        1.0.0
+@version        1.0.1
 @description    Dark Style for Twitter web application.
 @author         Creyo
 ==/UserStyle== */
 @-moz-document domain("twitter.com") {
 
     :root {
-        --dt-darker: #181a1e;
-        --dt-darke: #1b1f26;
         --dt-dark: #1f232a;
-        --dt-dark-l: #252a33;
-	    --dt-dark-ml: #333943;
+        --dt-dark1: #181a1e;
+        --dt-dark2: #1b1f26;
+        --dt-dark5: #333943;
     }
     
     element.style {
@@ -63,7 +62,11 @@
     }
 
     .r-ii8lfi {
-        background-color: rgb(31 35 42 / 10%);
+        background-color: rgb(31, 35, 42, 0.1);
+    }
+    
+    .r-3al2xr {
+        background-color: rgba(247, 249, 249, 0.1);
     }
 
     /*
@@ -73,10 +76,10 @@
         background-color: var(--dt-dark);
         max-width: 350px;
         padding-right: 10px;
-        border-bottom-color: var(--dt-dark-ml);
-        border-left-color: var(--dt-dark-ml);
-        border-right-color: var(--dt-dark-ml);
-        border-top-color: var(--dt-dark-ml);
+        border-bottom-color: var(--dt-dark5);
+        border-left-color: var(--dt-dark5);
+        border-right-color: var(--dt-dark5);
+        border-top-color: var(--dt-dark5);
     }
 
     .r-yfoy6g {
@@ -84,11 +87,11 @@
     }
     
     .r-g6ijar {
-        background-color: var(--dt-darke);
+        background-color: var(--dt-dark2);
     }
     
     .r-74htps {
-        border-color: var(--dt-darke);
+        border-color: var(--dt-dark2);
     }
 
     .r-1joea0r {
@@ -120,11 +123,11 @@
     }
 
     .r-aaos50 {
-        background-color: var(--dt-dark-ml);
+        background-color: var(--dt-dark5);
     }
 
     .r-xnswec {
-        box-shadow: rgb(31 35 42 / 75%) 0px 0px 15px, rgb(143 149 155 / 15%) 0px 0px 3px 1px;
+        box-shadow: rgb(31, 35, 42, 0.75) 0px 0px 15px, rgb(143, 149, 155, 0.15) 0px 0px 3px 1px;
     }
 
     /*
