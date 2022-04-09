@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Dark Republic for Twitter
 @namespace      github.com/officialcreyo/dark-twitter
-@version        1.0.1
+@version        1.0.3
 @description    Dark Style for Twitter web application.
-@author         Creyo
+@author         officialcreyo
 ==/UserStyle== */
 @-moz-document domain("twitter.com") {
 
@@ -24,35 +24,23 @@
         background-position: center 46px !important;
         background-repeat: no-repeat;
     }
+    
+    /* Replace */
+    .css-1dbjc4n.r-18u37iz.r-1w6e6rj.r-ymttw5:after {
+        color: rgb(139, 152, 165);
+        content: 'Theme designed by Creyo';
+        font-size: 13px;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
 
-    /*
- * --------------------------------------------------------------------------------------------------------------------
- */
-    /*
- *--------------------------Font--------------------
- */
+    /* Font */
     .r-1b6yd1w {
         font-size: 16px;
     }
-
-    /*
- *--------------------------Twitter Logo--------------------
- */
-    .r-mtrfb5 {
-        min-width: 40px;
-    }
-
-    .r-1vvnge1 {
-        margin-left: 120px;
-    }
-
-    .r-1jayybb {
-        min-height: 40px;
-    }
-
-    /*
- *--------------------------TL Content--------------------
- */
+    
+    /* Timeline Content */
     .r-a023e6 {
         font-size: 14px;
     }
@@ -69,9 +57,7 @@
         background-color: rgba(247, 249, 249, 0.1);
     }
 
-    /*
- *--------------------------Right Sidebar--------------------
- */
+    /* Right Sidebar */
     .r-1uhd6vh {
         background-color: var(--dt-dark);
         max-width: 350px;
@@ -95,13 +81,16 @@
     }
 
     .r-1joea0r {
-        margin-left: 2px;
+        margin-left: 8px;
     }
 
     .r-1ovo9ad {
         width: 350px;
         margin-right: 50px;
-        ;
+    }
+    
+    .r-8erxvq {
+        background-color: var(--dt-dark5);
     }
 
     .r-1l5qxre {
@@ -115,11 +104,9 @@
         border-top-right-radius: 14px;
     }
 
-    /*
- *--------------------------Top bar--------------------
- */
+    /* Top bar */
     .r-1h3ijdo {
-        height: 45px;
+        height: 55px;
     }
 
     .r-aaos50 {
@@ -130,9 +117,7 @@
         box-shadow: rgb(31, 35, 42, 0.75) 0px 0px 15px, rgb(143, 149, 155, 0.15) 0px 0px 3px 1px;
     }
 
-    /*
- *--------------------------Left sidebar--------------------
- */
+    /* Left sidebar */
     .r-d0pm55 {
         max-width: 500px;
         padding-left: 20px;
@@ -144,15 +129,8 @@
         border-top-right-radius: 14px;
     }
 
-    .r-e7q0ms {
-        max-width: 250px;
-        padding-left: 20px;
-        margin-left: 16px;
-    }
 
-    /*
- *--------------------------Scrollbar--------------------
- */
+    /* Scrollbar */
     ::-webkit-scrollbar {
 	    width: 10px;
     }
@@ -169,17 +147,12 @@
         background: #272d35;
     }
 
-    /*
- *--------------------------Who to follow--------------------
- */
+    /* Who to follow */
     .r-gzqks2 {
         min-height: 20px;
         max-height: 300px;
     }
 
-    /*
- *--------------------------Twiiter info & "X retwitted"--------------------
- */
     .r-1sf4r6n {
         width: auto;
         max-width: 400px;
